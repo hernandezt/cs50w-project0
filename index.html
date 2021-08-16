@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Links para poder cargar los estilos de CSS desde bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Link para poder conectarse con la hoja de estilos personalizados de CSS. -->
+  <link rel="stylesheet" href="estilos.css">
+  <link>
+
+  <!-- Metaetiquetas requeridas-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la pestaña-->
+  <title>HOME</title>
+</head>
+
+<body class="fondo">
+  <!-- Configuración de banner y el texto dentro del banner-->
+  <div class="banner">
+    <i>
+      <p class="titulo">CAD DRAFTMAN</p>
+    </i>
+    <p class="descripcion" style="font-weight:bold;">Teaching Technical Drawing by AutoCAD/Inventor
+      <br> to train excellent professionals
+    </p>
+  </div>
+
+  <!-- Código fuente de la barra de navegación-->
+  <nav class="navbar navbar-expand-lg" style="background-color:rgb(39, 34, 62);">
+    <a class="navbar-brand" href="index.html" style="color: white;">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active mx-3" href="about_me.html" style="color: white;">About me</a>
+        <a class="nav-item nav-link mx-3" href="academic_activities.html" style="color: white;">Academic Activities</a>
+        <a class="nav-item nav-link mx-3" href="contact_me.html" style="color: white;">Contact me</a>
+        <a class="nav-item nav-link mx-3" href="blog.html" style="color: white;">Blog</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Código para distribuir el contenido en dos columnas-->
+  <div class="container">
+    <div class="row pt-5">
+      <!--Columna de la imagen-->
+      <div class="col-sm">
+        <div class="ubicacion-izquierda">
+          <img src="images/YO.jpg" class="foto-yo mx-5">
+          <br>
+          <br>
+        </div>
+      </div>
+      <!--Columna del texto-->
+      <div class="col-sm">
+        <h3><u>ENG. RICARDO HERNÁNDEZ</u></h3>
+        <p>
+          AutoCAD/Inventor Technical Draftsman, expert level for nine years in a highly competitive and demanding
+          environment.
+          Committed, constant, results oriented and with a lot of passion for what I do.
+          My work experience as a CAD draftsman has been within the industrial, chemical, electrical and mechanical
+          sectors.
+        </p>
+        <!-- Botón para enlazar con la pestaña ABOUT ME. -->
+        <a class="btn btn-primary" href="about_me.html" role="button">Read More</a>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts de jQuery, Popper.js y JavaScript requeridas-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
