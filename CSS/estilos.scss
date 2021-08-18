@@ -1,0 +1,77 @@
+/* Estilos para el banner */
+.banner
+{
+    background-image: url("../images/mediano-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 390px;
+}
+
+/*Herencia de color*/
+%color
+{
+    color: white;
+}
+/* Estilos para el NOMBRE DE LA PROFESIÓN que va dentro del banner */
+.titulo
+{
+    font-family: 'Times New Roman', Times, serif;
+    @extend %color;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+/* Estilos para la descripción del nombre de la profesión que va dentro del banner */
+.descripcion
+{
+    color: rgb(252, 249, 252);
+    font-size: 18px;
+    text-align: center;    
+}
+/* Justificación de todos los párrafos de la página WEB*/
+p
+{
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*Ajustes para la foto de perfil */
+.foto-yo
+{
+    width: 50%;
+    height: auto;    
+}
+/* Ajuste para todos los textos que requieren una ubicación a la IZQUIERDA */
+.ubicacion-izquierda
+{
+    text-align: right;
+}
+/* Ajuste para todos los textos que requieren una ubicación a la DERECHA */
+.ubicacion-derecha
+{
+    text-align: left;
+}
+
+/* Ajuste para todos los textos que requieren una ubicación CENTRADA */
+.ubicacion-centrada
+{
+    text-align: center;
+}
+
+/* color de fondo para todas las áreas de texto de la página WEB */
+.fondo
+{
+    background-color: rgb(214, 210, 207);
+}
+
+/* Ubicación de la segunda sección de contenido del ABOUT ME */
+
+.ubicacion-izquierda-1
+{
+    text-align: left; 
+}
+/* Color del tipo de certificación en la pestaña ABOUT ME */
+.color-certificacion
+{
+    color: royalblue;
+}
