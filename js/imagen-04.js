@@ -1,11 +1,11 @@
 console.log("matriz-de-imagenes")
 // Get the modal
-var modal = document.getElementById('myModal');
+var modal = document.getElementById('Modal-04');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('img-a');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+var img = document.getElementById('img-d');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption-04");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
