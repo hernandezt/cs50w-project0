@@ -78,4 +78,22 @@ p {
   color: white;
   margin-top: 30px;
 }
+
+/* Ajuste de pantalla a distintos dispositivos mediante MEDIA QUERY */
+/* Smartphones (portrait & landscape) */
+@media only screen and (min-device-width: 280px) and (max-device-width: 1224px) {
+  .engranajes {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+/* iPads (portrait) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .engranajes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
